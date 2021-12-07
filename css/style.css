@@ -217,7 +217,7 @@ nav {
 .menu-urls li a:after {
     content: "";
     position: absolute;
-    background-color: var(--main-afterwhite);
+    background-color: var(--main-blue);
     height: 3px;
     width: 0;
     left: 0;
