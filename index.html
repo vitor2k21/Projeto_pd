@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>ETE Porto Digital</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+        <link rel="icon" type="image/jpg" href="./img/logo etepd.png"/>
+    </head>
+    <body data-aos-easing="ease" data-aos-duration="370" data-aos-delay="0">
+        <div id="home" class="initial">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <div id="toggle"></div>
+                    <script>
+                        const toggle = document.getElementById('toggle');
+                        toggle.onclick = function() {
+                            toggle.classList.toggle('active');
+                        }
+                    </script>
+                </label>
+                <label class="logo">
+                    <a href=""><img src="./img/logo ete pd0.png" title="ETE Porto Digital" class="logopd" alt="Logo da ETE Porto Digital"></a>
+                </label>
+                <label for="check" class="checkbtn z">
+                    <div class="click" id="toggle"></div>
+                    <script>
+                        const rem = document.querySelector('.click');
+                        rem.onclick = function() {
+                            toggle.classList.remove('active');
+                        }
+                    </script>
+                </label>
+                <div class="testar">
+                    <ul class="menu-urls">
+                        <li class="menu">
+                            <a title="Home" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a title="" href="">Sobre</a>
+                        </li>
+                        <li>
+                            <a title="" href="">Eventos</a>
+                        </li>
+                        <!-- <li>
+                            <a title="" href="">Vídeos</a>
+                        </li> -->
+                        <li>
+                            <a title="" href="">Projetos</a>
+                        </li>
+                        <!-- <li>
+                            <a title="" href="">Aulas</a>
+                        </li> -->
+                        <li class="set">
+                            <a title="Mais..." class="profile" onclick="menuToggle()">Mais <img class="seta" src="./img/setaa2.png">
+                                <div class="action">
+                                    <div class="menuprofile">
+                                        <div class="scroll">
+                                            <ul>
+                                                <li>
+                                                    <div onclick="menuToggle()" id="toggle2" title="alterar cores" class="tester">
+                                                        <i class="indicator"></i>
+                                                    </div>
+                                                    <script>
+                                                        const body = document.querySelector('body');
+                                                        const toggle2 = document.getElementById('toggle2');
+                                                        const nav = document.querySelector('nav');
+                                                        const menu = document.querySelector('.menu-urls');
+                                                        let index_no = 0;
+                                                        toggle2.onclick = function() {
+                                                            toggle2.classList.toggle('active');
+                                                            body.classList.toggle('active');
+                                                            nav.classList.toggle('active');
+                                                            menu.classList.toggle('active');
+                                                        }
+                                                    </script>
+                                                </li>
+                                                <li><a href="#">Local</a></li>
+                                                <li><a href="#">Contatos</a></li>
+                                                <!-- <li><a href="#">Professores</a></li> -->
+                                                <li><a href="#">Ajuda</a></li>
+                                                <li><a href="#">Termos e Privacidade</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                    function menuToggle() {
+                                        const toggleMenu = document.querySelector('.menuprofile');
+                                        toggleMenu.classList.toggle('active');
+                                        const seta = document.querySelector('.seta');
+                                        seta.classList.toggle('active');
+                                    }
+                                </script>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <nav class="escondido"></nav>
+        <body class="slide">
+            <div class="sliderclass">
+                <img src="./img/carrossel-a.jpeg"/>
+                <img src="./img/carrossel-b.jpeg"/>
+                <section>
+                    <a class="none" href="https://www.instagram.com/lego_bulls/" target="_blank">
+                        <img class="silder" src="./img/carrossel-c.jpeg"/>
+                    </a>
+                </section>
+                <!-- <img src="./img/project.jpeg"/>
+                <img src="./img/project.jpeg"/> -->
+            </div>
+        </body>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/jquery-migrate.js"></script>
+        <script type="text/javascript" src="./js/slick.min.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+        <script type="text/javascript" src="./js/gsap.min.js"></script>
+        <script type="text/javascript" src="./js/ScrollTrigger.min.js"></script>
+        <!-- <script type="text/javascript" src="./js/input.js"></script> -->
+    </body>
+</html>
