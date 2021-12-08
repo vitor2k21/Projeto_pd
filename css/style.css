@@ -204,8 +204,6 @@ nav {
     padding-left: 50px;
 }
 .menu-urls li a {
-    list-style:none
-        position:block
     text-decoration: none;
     position: relative;
     color: var(--main-bluesky);
@@ -214,7 +212,9 @@ nav {
     /* text-transform: uppercase; */
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-weight: 700;
- 
+}
+.menu-urls li a{
+
 }
 .menu-urls li a:after {
     content: "";
