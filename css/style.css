@@ -204,6 +204,8 @@ nav {
     padding-left: 50px;
 }
 .menu-urls li a {
+    list-style:none
+        position:block
     text-decoration: none;
     position: relative;
     color: var(--main-bluesky);
